@@ -29,24 +29,34 @@
     <body>
         <header>
             <div class="company--brand_mobile"></div>
-            <nav class="darken-1 magicnav--dark purple tmg--fixed" aria-label="Page Menu">
+            <nav class="darken-1 magicnav--dark purple tmg--fixed" aria-label="Page Menu" data-pg-collapsed>
                 <ul class="sf-menu tmg--Flex">
-                    <li><a class="li-padding-remove"> <div id="brand--target_navigation" class="company--brand_desktop"></div> </a>
+                    <li class="tmg--inner-1">
+                        <a class="li-padding-remove"> <div id="brand--target_navigation" class="company--brand_desktop"></div> </a>
                     </li>
-                    <li><a data-scroll-nav="1" class="sf-li">Wir</a>
+                    <li>
+                        <a data-scroll-nav="1" class="sf-li">Wir</a>
                     </li>
-                    <li><a data-scroll-nav="2" class="sf-li">Menschen</a>
+                    <li>
+                        <a data-scroll-nav="1" class="sf-li">Für Wen</a>
                     </li>
-                    <li><a data-scroll-nav="3" class="sf-li">Mehrwert</a>
+                    <li>
+                        <a data-scroll-nav="2" class="sf-li">Was</a>
                     </li>
-                    <li><a data-scroll-nav="4" class="sf-li">Sitemap</a>
+                    <li><a data-scroll-nav="3" class="sf-li">Ziel</a>
+                    </li>
+                    <li>
+                        <a data-scroll-nav="4" class="sf-li">Mehrwert</a>
+                    </li>
+                    <li>
+                        <a data-scroll-nav="19" class="sf-li">Sitemap</a>
                     </li>
                 </ul>
             </nav>
             <img src="img/lukasz-maznica-6BIED5dhoZg-unsplash.jpg"/>
         </header>
-        <main>
-            <section aria-label="Welcome" class="darken-1 lime tmg--inner-b-2 white-text" data-pg-name="Welcome" data-pg-collapsed>
+        <main data-pg-collapsed>
+            <section aria-label="Welcome" class="darken-1 lime tmg--inner-b-2 white-text" data-pg-name="Welcome" data-pg-collapsed data-scroll-index="1">
                 <article aria-labelledby="Article_Head_Main" class="tmg__area--width tmg__text-justifyCenter">
                     <img src="img/Logo.png" style="width: 100%; height: auto; max-width: 500px;"/>
                     <h1 id="Article_Head_Main" class="grey-text text-darken-3 tmg--inner-lr-1 tmg--outer-b-1">Wandel für eine andere Zukunft!</h1>
@@ -54,10 +64,11 @@
 Hier unterstützen und begleiten wir Menschen, die sich ihrer Zukunft proaktiv vorstellen. Die offen für andere Werte und Sichtweisen, mutig für neue Wege sind und Verantwortung für sich und die Gesellschaft übernehmen.</p>
                 </article>
             </section>
-            <div data-pg-name="Notes" data-pg-collapsed>
+            <div data-pg-name="Notes" data-pg-collapsed data-scroll-index="2">
                 <section aria-label="Notes" class="tmg__area--width tmg--inner-tb-2">
                     <h2 class="tmg--outer-b-1 tmg--inner-lr-1 purple-text text-darken-1">Wir lieben es Menschen zu bewegen, mit Menschen die bewegen.</h2>
-                    <p class="tmg--outer-b-2 tmg--inner-lr-1">Aus der Erkenntnis, dass es letztlich nur die Menschen sind, welche einen stetigen Wandel in die richtige Richtung manövrieren möchten, haben wir einzigartige Konzepte entwickelt, diese Werte zu erkennen, zu verarbeiten und zu pflegen.</p>
+                    <p class="tmg--outer-b-2 tmg--inner-lr-1">Aus der Erkenntnis, dass es letztlich nur die Menschen sind, welche einen stetigen Wandel in die richtige Richtung manövrieren möchten, haben wir einzigartige Konzepte entwickelt, diese Werte zu erkennen, zu verarbeiten und zu pflegen. Die Erfahrung basiert auf den unterschiedlichen Lebensphasen und den Werten die uns mit auf den Weg gegeben wurden. 
+Unsere Erfahrungen bezogen wir außerdem durch Projekte aus den Branchen der IT Dienstleistung, der Automobilindustrie, dem Business Consulting, der Nahrungsmittelindustrie, von allgemeinen Arztpraxen, den gemeinnützigen Organisationen wie Turn- und Sportvereine.</p>
                     <div class="tmg__module--Flex tmg-one tmg-three-800" data-pg-collapsed>
                         <article class="tmg--inner-1">
                             <h3 class="tmg--outer-b-1 purple-text text-darken-1">Prüfen</h3>
@@ -78,55 +89,76 @@ Hier unterstützen und begleiten wir Menschen, die sich ihrer Zukunft proaktiv v
                 </section>
             </div>
             <section aria-label="" class="tmg__area" data-pg-name="Mehrwert">
-                <div class="tmg-two-1000 tmg__module--Flex">
-                    <article>
+                <div class="tmg-two-1000 tmg__module--Flex" data-pg-collapsed data-scroll-index="3">
+                    <article data-pg-collapsed style="display: flex; object-fit: fill;" class="tmg--module__order-reverse">
+                        <img src="https://images.unsplash.com/photo-1525426250015-4e6473cdbf17?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDl8fE1vdmVtZW50fGVufDB8fHx8MTcyMjIzNTEzN3ww&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=500&fit=max"/>
+                    </article>
+                    <article class="darken-1 purple tmg--inner-2" data-pg-collapsed>
+                        <h3 class="tmg--outer-b-2 white-text">Wir sind Ihr Bewegungsmelder</h3>
+                        <p class="white-text">...erkenne, verstehe, gestalte und integriere
+nachhaltige Lebens-Systeme
+mit ihren Eigenschaften und Funktionen
+für ein bestimmtes Verhalten
+unter Berücksichtigung der jeweiligen
+Umgebungsbedingungen.</p>
+                    </article>
+                </div>
+                <div class="tmg-two-1000 tmg__module--Flex" data-scroll-index="4">
+                    <article data-scroll-index="4">
                         <img src="https://images.unsplash.com/photo-1662074541655-45d933e26c3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDQxfHxwb2VwbGV8ZW58MHx8fHwxNzIxOTc4NDgxfDA&ixlib=rb-4.0.3&q=80&w=1080"/>
                     </article>
-                    <article class="darken-1 purple tmg--inner-2">
-                        <h3 class="tmg--outer-b-2 white-text">Unser Mehrwert – Zuversicht und Hoffnung – mehr Wert.</h3>
+                    <article class="darken-1 lime tmg--inner-2">
+                        <h3 class="tmg--outer-b-2 white-text">Unser Mehrwert – Zuversicht und Hoffnung sind mehr Wert.</h3>
                         <p class="white-text">Es geht uns um Zukunft, Vision mit Werten, Zweck einer Mission, Orientierung für nachhaltigen Wandel und damit einer anderen Sicht und Denkweise die das Handeln bestimmt.
 Wir bauen Vertrauen aus, sind begeistert von dem was wir wie tun, sind begeisternd, haben eine klare Vision und hinterfragen den Status Quo.</p>
                     </article>
                 </div>
             </section>
         </main>
-        <footer data-pgc-define="Footer" data-pgc-define-name="Footer" data-pgc-define-description="Used footer">
+        <footer data-pgc-define="Footer" data-pgc-define-name="Footer" data-pgc-define-description="Used footer" data-pg-collapsed data-scroll-index="19">
             <section class="tmg--inner-2 blue-grey darken-4" data-pg-name="Sitemap" data-pg-collapsed>
                 <div class="tmg__area--width">
                     <h2 class="tmg--inner-lr-1 blue-grey-text tmg--outer-b-1 text-lighten-1">Sitemap</h2>
-                    <p class="tmg--inner-lr-1 blue-grey-text tmg--outer-b-1 text-lighten-1">The Top-Nav is dediacted to drive through the sections of the current page. But assumed, you have a growing project, with more pages to add, the Top Nav would be too crowded. Drop Downs and the like sucks. So the Sitemap is to explore the Site - and will link to the next following pages.</p>
+                    <p class="tmg--inner-lr-1 blue-grey-text tmg--outer-b-1 text-lighten-1">Die WebSite und öffentlichen Auftritte von die WerteWerkStatt umfasst zur Zeit folgende Punkte:</p>
                     <div class="sitemap-if-dark tmg__module--Flex tmg-one tmg-two-900 tmg-four-1200" data-pg-collapsed>
                         <div class="tmg--inner-1" data-pg-name="Grid-1">
                             <ul>
-                                <li><a href="#">Index</a>
+                                <li>
+                                    <a href="#">Index</a>
                                 </li>
-                                <li><a href="#">Impressum</a>
+                                <li>
+                                    <a href="#">Impressum</a>
                                 </li>
-                                <li><a href="#">Datenschutz</a>
+                                <li>
+                                    <a href="#">Datenschutz</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="tmg--inner-1" data-pg-name="Grid-3">
                             <ul>
                                 <li data-pg-name="List Title" class="sitemap-if-dark-title">Meet me talking on:</li>
-                                <li><a href="http://forum.pinegrow.com">Pinegrow Community Forum</a>
+                                <li>
+                                    <a href="http://forum.pinegrow.com">Pinegrow Community Forum</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="tmg--inner-1" data-pg-name="Grid-4">
                             <ul class="fa-ul">
-                                <li><a href="https://twitter.com/Hopsing68" target="_blank"><i class="fa fa-twitter-square tmg--outer-r-1"></i>Twitter</a>
+                                <li>
+                                    <a href="https://twitter.com/Hopsing68" target="_blank"><i class="fa fa-twitter-square tmg--outer-r-1"></i>Twitter</a>
                                 </li>
                                 <li>
 </li>
-                                <li><a href="https://plus.google.com/u/0/110462586229698222008" target="_blank"><i class="fa tmg--outer-r-1 fa-google-plus-square"></i>Google+</a>
+                                <li>
+                                    <a href="https://plus.google.com/u/0/110462586229698222008" target="_blank"><i class="fa tmg--outer-r-1 fa-google-plus-square"></i>Google+</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </section>
-            <p class="tmg--inner-2 blue-grey darken-4 blue-grey-text text-lighten-4 tmg__copyright" data-pg-name="Copyright">&copy; Die WerteWerkStatt - All rights reserved</p><a href="#" class="back-to-top darken-2 lime show white-text" title="Back to top"><i class="fa fa-chevron-up white-text"></i></a>
+            <p class="blue-grey-text darken-4 grey text-lighten-4 tmg--inner-2 tmg__copyright" data-pg-name="Copyright">&copy; Die WerteWerkStatt - All rights reserved</p>
+            <a href="#" class="back-to-top darken-2 lime show white-text" title="Back to top"><i class="fa fa-chevron-up white-text"></i></a>
         </footer>
         <!-- TheMagicScript has jQuery included by default -->
         <script type="text/javascript" src="js/themagicscript-min.js"></script>
